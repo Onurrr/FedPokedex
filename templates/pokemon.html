@@ -1,0 +1,21 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-12">
+			<div class="thumbnail types type{{pokemon.type1}}">
+				<p class="dexnumber">#{{pokemon.id}}</p>
+				<img src="./dist/img/animated/{{pokemon.name}}.gif" alt="{{pokemon.name}}">
+				<h3 class="text-center dexwhite text-capitalize">{{pokemon.name}}</h3>
+
+				<button class=" dexinfo btn btn-primary type{{pokemon.type1}} left" type="button">
+					Weight <span class="badge dexinfobadge type{{pokemon.type1}}">{{pokemon.weight /10 }}kg</span>
+				</button>
+				<button class=" dexinfo btn btn-primary type{{pokemon.type1}}" type="button">
+					Height <span class="badge dexinfobadge type{{pokemon.type1}}">{{pokemon.height /10 }}m</span>
+				</button>
+				<a href="#!desc/{{pokemon.id}}" class="btn btn-primary btn-block dexbutton descbutton text-capitalize type{{pokemon.type1}}" role="button">Description</a>
+				<p><a href="#/" class="btn btn-primary btn-block dexbutton text-capitalize type{{pokemon.type1}}" role="button">Back</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+

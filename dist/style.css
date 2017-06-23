@@ -1,0 +1,178 @@
+.types{
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 46px 100px rgba(0, 0, 0, 0.2);
+	border: 2px solid #242424;
+}
+.type1{ /*Bug*/
+	background: #b3d76e !important;
+}
+.type2{ /*Grass*/
+	background: #2ecc71 !important;
+}
+.type3{ /*Dark*/
+	/*None existing in pokemon gen1*/
+}
+.type4{ /*Ground*/
+	background: #967b4b !important;
+}
+.type5{ /*Dragon*/
+	background: #a7132e !important;
+}
+.type6{ /*Ice*/
+	background: #54cdd4 !important;
+}
+.type7{ /*Electric*/
+	background: #ecda09 !important;
+}
+.type8{ /*Normal*/
+	background: #deb19c !important;
+}
+.type9{ /*Fairy*/
+	background: #fb5ed4 !important;
+}
+.type10{ /*Poison*/
+	background: #a27498 !important;
+}
+.type11{ /*Fighting*/
+	background: #f3a32a !important;
+}
+.type12{ /*Psychic*/
+	background: #8845c6 !important;
+}
+.type13{ /*Fire*/
+	background: #e65822 !important;
+}
+.type14{ /*Rock*/
+	background: #959ca6 !important;
+}
+.type15{ /*Flying*/
+	background: #a1d8e6 !important;
+}
+.type16{ /*Steel*/
+/*None existing in pokemon gen1*/
+}
+.type17{ /*Ghost*/
+	background: #46345e !important;
+}
+.type18{ /*Water*/
+	background: #1073a2 !important;
+}
+.badge0:after{
+	content:"-";
+}
+.badge1:after{
+	content:"Bug";
+}
+.badge2:after{
+	content:"Grass";
+}
+.badge3:after{
+	content:"Dark";
+}
+.badge4:after{
+	content:"Ground";
+}
+.badge5:after{
+	content:"Dragon";
+}
+.badge6:after{
+	content:"Ice";
+}
+.badge7:after{
+	content:"Electric";
+}
+.badge8:after{
+	content:"Normal";
+}
+.badge9:after{
+	content:"Fairy";
+}
+.badge10:after{
+	content:"Poison";
+}
+.badge11:after{
+	content:"Fighting";
+}
+.badge12:after{
+	content:"Psychic";
+}
+.badge13:after{
+	content:"Fire";
+}
+.badge14:after{
+	content:"Rock";
+}
+.badge15:after{
+	content:"Flying";
+}
+.badge16:after{
+	content:"Steel";
+}
+.badge17:after{
+	content:"Ghost";
+}
+.badge18:after{
+	content:"Water";
+}
+.dexwhite{
+	color:#fff;
+}
+.dexbutton{
+	/*background-color: #2a2a2a;*/
+	border: 2px solid #242424;
+	position: relative;
+	bottom: -12px;
+	box-shadow: inset 0px 0px 46px 100px rgba(0, 0, 0, 0.2);
+	border-right:none;
+	border-left:none;
+}
+.dexbutton:hover{
+	box-shadow: inset 0px 0px 46px 100px rgba(0, 0, 0, 0.2);
+	background-color: #000;
+	color: #fff;
+	border-right:none;
+	border-left:none;
+}
+.descbutton{
+	bottom: -13px;
+	color: #fff;
+}
+.thumbnail{
+	padding:0px;
+}
+body{
+	background-color:#ccc;
+}
+.dexnumber{
+	position: absolute;
+	right: 20px;
+	top: 4px;
+	color:white;
+	background-color:black;
+	opacity:0.6;
+	padding:5px;
+}
+.dexinfo{
+	width:50%;
+	border: 2px solid #242424;
+	position: relative;
+	bottom: -14px;
+	box-shadow: inset 0px 0px 46px 100px rgba(0, 0, 0, 0.2);
+	border-right:none;
+	border-left:none;
+	border-radius:0px;
+}
+.dexinfo:hover{
+	box-shadow: inset 0px 0px 46px 100px rgba(0, 0, 0, 0.2);
+	background-color: #000;
+	color: #fff;
+	border-right:none;
+	border-left:none;
+	border-radius:0px;
+}
+.left{
+	float:left;
+}
+.dexinfobadge{
+	color:black !important;
+}

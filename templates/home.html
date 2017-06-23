@@ -1,0 +1,22 @@
+<div class="container">
+	<h1 class="text-center">Kanto (Gen. 1) Pokemon</h1>
+
+	<div class="row">
+		<div ng-repeat="pokemon in pokemons" class="col-sm-6 col-md-3">
+			<div class="thumbnail types type{{pokemon.type1}}">
+				<p class="dexnumber">#{{pokemon.id}}</p>
+				<img src="https://img.pokemondb.net/sprites/black-white/normal/{{pokemon.name}}.png" alt="{{pokemon.name}}">
+
+					<h3 class="text-center dexwhite text-capitalize">{{pokemon.name}}</h3>
+				<button class=" dexinfo btn btn-primary type{{pokemon.type1}} left" type="button">
+					<span class="badge dexinfobadge type{{pokemon.type1}}"><div class="badge{{pokemon.type1}}"></div></span>
+				</button>
+				<button class="dexinfo btn btn-primary type{{pokemon.type1}}" type="button">
+					<span class="badge dexinfobadge type{{pokemon.type2}}"><div class="badge{{pokemon.type2}}"></span>
+				</button>
+					<p><a href="#!pokemon/{{pokemon.id}}" class="btn btn-primary btn-block dexbutton text-capitalize type{{pokemon.type1}}" role="button">View {{pokemon.name}}</a></p>
+					<p class="dexnumber">#{{pokemon.id}}</p>
+			</div>
+		</div>
+	</div>
+</div>
